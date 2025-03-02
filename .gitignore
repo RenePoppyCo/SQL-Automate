@@ -1,2 +1,20 @@
-# Ignore Python cache files
+# PyInstaller output directories
+/dist/
+/build/
+*.spec
+
+# PyInstaller cache and temp files
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Windows executable files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs and temporary files
+*.log
+*.tmp
