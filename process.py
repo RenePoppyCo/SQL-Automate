@@ -14,8 +14,8 @@ df = pd.read_sql_query(query, conn)
 
 conn.close()
 
-print("Sales Summary:")
-print(df.head())
+# print("Sales Summary:")
+# print(df.head())
 
 total_revenue = df['total_revenue'].sum()
 print(f"\nTotal Overall Revenue: ${total_revenue:.2f}")

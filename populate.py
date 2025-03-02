@@ -29,10 +29,8 @@ def generate_mock_sales(num_rows):
         if (any(product in tuple_item for tuple_item in mock_data)):
             product_count[product] += 1
             product = f"{product}_{product_count[product]}"
-            print("what we made: ",product)
         else:                
             product_count[product] = 1
-            print(product_count[product])
 
         quantity = random.randint(1, 10)  
         price = round(random.uniform(10.0, 1000.0), 2)  
